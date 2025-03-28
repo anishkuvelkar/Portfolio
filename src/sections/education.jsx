@@ -1,5 +1,5 @@
 import React from 'react';
-import syracuseImage from '../images/syracuse.JPG'; // Update with your Syracuse University image path
+import syracuseImage from '../images/syracuse.jpg'; // Update with your Syracuse University image path
 import goaImage from '../images/gec.jpeg'; // Update with your Goa College of Engineering image path
 
 
