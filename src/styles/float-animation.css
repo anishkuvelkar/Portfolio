@@ -1,0 +1,19 @@
+/* Define the keyframes for floating */
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Float up */
+    }
+    100% {
+      transform: translateY(0); /* Return to original position */
+    }
+  }
+  
+  /* Apply the animation to make it float */
+  .float {
+    animation: float 3s ease-in-out infinite; /* Float continuously with a 3s duration */
+    display: inline-block; /* Ensures the element behaves like an inline-block for positioning */
+  }
+  
