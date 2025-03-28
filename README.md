@@ -1,2 +1,2 @@
-# Portfolio
-Sure! Here’s a 350-character version:  ---  Welcome to my portfolio! Built with **React**, **Vite**, **TailwindCSS**, and **Framer Motion**, it highlights my web development skills and projects. It features interactive elements, responsive design, and showcases my expertise in technologies like React, Node.js, Django, TensorFlow, and more.
+#Portfolio
+My portfolio showcases my journey in Computer Engineering featuring projects like CribMatch and Scoutify. It highlights my skills** in machine learning, NLP, web development and data analysis. It also reflects my work experience, vision for future projects, and the education that shapes my expertise.
