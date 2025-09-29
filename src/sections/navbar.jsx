@@ -88,7 +88,7 @@ const Navbar = () => {
       {/* Download Resume Button */}
       <div className="flex gap-6">
         <a
-          href="https://drive.google.com/uc?export=download&id=1KACaRlxgB3z1bMAB5K1IWwKiR_WrzwuC"
+          href="https://drive.google.com/uc?export=download&id=1PzBewBGzEeroUC67vcFytx65xrxxnguo"
           download
           className="bg-cyan-400 text-white py-2 px-4 rounded-full hover:bg-cyan-500 transition-colors"
         >
