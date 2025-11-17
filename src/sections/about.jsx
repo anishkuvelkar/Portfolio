@@ -9,7 +9,7 @@ const experiences = [
   {
     company: 'Thaddeus Resource Center',
     location: 'Los Angeles, CA',
-    position: 'Applied ML Analyst – UX Research & Behavioral Insights',
+    position: 'Applied ML Analyst – Behavioral Intelligence & Insights Platform',
     date: 'July 2025 – Present',
     image: work2,
     bullets: [
@@ -24,7 +24,7 @@ const experiences = [
   {
     company: "Syracuse University, Prof. Nadeem Ghani’s Lab",
     location: 'Syracuse, NY',
-    position: 'ML Engineer – Research Assistant',
+    position: 'ML Engineer – Research Assistant, Health Data Intelligence Platform',
     date: 'July 2024 – Present',
     image: work1,
     bullets: [
@@ -39,14 +39,13 @@ const experiences = [
   {
     company: 'Browntape Technologies',
     location: 'Goa, India',
-    position: 'Technical ML Analyst',
+    position: 'Technical ML Analyst, B2B SaaS eCommerce Automation Platform',
     date: 'Aug 2022 – Mar 2023',
     image: AboutImg,
     bullets: [
-      'Reduced stockouts by 40% using ARIMA, Prophet, and LSTM on 1M+ Amazon and Shopify orders, automating ingestion with Airflow/SQL and DVC',
-      'Improved SLA compliance by 35% using Gradient Boosted Trees, deploying ETL in Snowflake and APIs via Flask/AWS EC2',
-      'Enhanced operational visibility by 30% by integrating Salesforce, SAP, Microsoft Dynamics NAV, IBM Sterling with Tableau and Plotly',
-      'Increased cross-team productivity by 25% using real-time Power BI dashboards, optimizing predictive analytics, anomaly detection, and KPI monitoring',
+      'Reduced stockouts by 27% and improved SLA compliance by 15-20% by building end-to-end ML pipelines using ARIMA, Prophet, LSTM, Gradient Boosted Trees, Random Forest, Airflow, DVC, and Snowflake',
+      'Enhanced operational efficiency by 24% through integration of Salesforce, SAP, Microsoft Dynamics NAV, and IBM Sterling with dashboards built on Tableau and Plotly, managing data from over 8.3M+ orders',
+      'Increased cross-team productivity by 20% by automating predictive analytics, anomaly detection, and KPI monitoring using MLflow, Docker, Flask, AWS EC2, and Power BI dashboards',
     ],
     website: 'https://www.ginesys.in/products/e-commerce-oms',
   },
