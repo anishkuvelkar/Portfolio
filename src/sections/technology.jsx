@@ -35,7 +35,7 @@ const Technology = () => {
       ]
     },
 
-    /* ================= Frameworks ================= */
+    /* ================= Frameworks ================ */
     {
       title: "Frameworks",
       items: [
