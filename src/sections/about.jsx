@@ -19,6 +19,21 @@ const experiences = [
       'Conducted Bayesian A/B testing and uplift modeling, improving mobile verification rates by 14% using NumPy, scikit-learn, Seaborn',
       'Automated feature pipelines, hyperparameter tuning, and model validation frameworks, reducing model deployment time by 30%',
     ],
+    website: 'https://www.balanxbio.com/',
+  },
+  {
+    company: 'Thaddeus Resource Center',
+    location: 'Los Angeles, CA',
+    position: 'Applied ML Analyst – Behavioral Intelligence & Insights Platform',
+    date: 'July 2025 – Present',
+    image: work2,
+    bullets: [
+      'Processed 12K+ feedback entries with DistilBERT, spaCy, PyTorch, HuggingFace Transformers, reducing support requests by 23%',
+      'Clustered 18K+ session logs via HDBSCAN, UMAP, t-SNE embeddings, identifying 5 user segments, increasing feature retention by 17%',
+      'Built dashboards with Plotly Dash, SQL, PostgreSQL, AWS S3, improving workflow completion by 27%',
+      'Conducted Bayesian A/B testing and uplift modeling, improving mobile verification rates by 14% using NumPy, scikit-learn, Seaborn',
+      'Automated feature pipelines, hyperparameter tuning, and model validation frameworks, reducing model deployment time by 30%',
+    ],
     website: 'https://www.thaddeus.org/',
   },
   {
