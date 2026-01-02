@@ -1,15 +1,15 @@
 import React from 'react';
 import {
   FaReact, FaCode, FaPython, FaJava, FaNodeJs, FaHtml5, FaJsSquare,
-  FaFire, FaAws, FaEye, FaCss3Alt, FaGitAlt, FaChartBar, FaChartLine,
-  FaFlask, FaBrain, FaRobot, FaDatabase, FaDocker
+  FaFire, FaAws, FaCss3Alt, FaGitAlt, FaChartBar, FaChartLine,
+  FaFlask, FaBrain, FaRobot, FaDocker
 } from 'react-icons/fa';
 
 import {
   SiMongodb, SiMysql, SiPytorch, SiScikitlearn, SiTensorflow,
   SiOpencv, SiDjango, SiSqlite, SiPostgresql, SiSnowflake,
   SiApacheairflow, SiMlflow, SiDatabricks, SiHuggingface,
-  SiPandas, SiNumpy
+  SiPandas, SiNumpy, SiTableau, SiPowerbi
 } from 'react-icons/si';
 
 import vueimg from '../images/vue.png';
@@ -20,6 +20,7 @@ const icon = (color) => `float ${color}`;
 const Technology = () => {
   const sections = [
 
+    /* ================= Languages ================= */
     {
       title: "Languages",
       items: [
@@ -34,6 +35,7 @@ const Technology = () => {
       ]
     },
 
+    /* ================= Frameworks ================= */
     {
       title: "Frameworks",
       items: [
@@ -45,6 +47,7 @@ const Technology = () => {
       ]
     },
 
+    /* ================= Databases ================= */
     {
       title: "Databases",
       items: [
@@ -57,6 +60,7 @@ const Technology = () => {
       ]
     },
 
+    /* ================= ML & Data Libraries ================= */
     {
       title: "ML & Data Libraries",
       items: [
@@ -72,6 +76,18 @@ const Technology = () => {
       ]
     },
 
+    /* ================= Visualization & BI ================= */
+    {
+      title: "Visualization & BI",
+      items: [
+        { icon: <SiTableau className={icon("text-blue-400")} />, label: "Tableau", level: "Expert" },
+        { icon: <SiPowerbi className={icon("text-yellow-500")} />, label: "Power BI", level: "Expert" },
+        { icon: <FaChartBar className={icon("text-blue-500")} />, label: "Plotly / Dash", level: "Expert" },
+        { icon: <FaChartLine className={icon("text-purple-400")} />, label: "Applied Statistics", level: "Expert" }
+      ]
+    },
+
+    /* ================= NLP, LLMs & Time Series ================= */
     {
       title: "NLP, LLMs & Time Series",
       items: [
@@ -84,6 +100,7 @@ const Technology = () => {
       ]
     },
 
+    /* ================= MLOps & Cloud ================= */
     {
       title: "MLOps & Cloud",
       items: [
