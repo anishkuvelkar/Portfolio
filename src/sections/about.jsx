@@ -54,9 +54,9 @@ const experiences = [
     date: 'Aug 2022 – Mar 2023',
     image: AboutImg,
     bullets: [
-      'Trained LightGBM/XGBoost ensembles (R² = 0.87) across 3,000+ counties to predict diabetes and obesity risk and identify high-risk areas',
-      'Integrated and preprocessed 40+ multi-source datasets from CDC, EPA, and Census using pandas, NumPy, and scikit-learn',
-      'Applied SHAP and LIME to surface 5+ key risk factors and generated 1,000+ GPT-4 health reports with actionable public health insights',
+      'Reduced stockouts by 27% and improved SLA compliance by 16-20% through predictive analytics using ARIMA, Prophet, LSTM, GBTs, Random Forest, hyperparameter tuning, anomaly detection, and Power BI',
+      'Enhanced productivity by 24% by integrating Salesforce & Snowflake with Tableau, managing 8.3M+ orders, with cross-team collaboration',
+      'Increased productivity by 14% through end-to-end ML pipelines with MLflow, DVC, Docker, Flask APIs, and AWS (S3, EC2, Lambda)',
     ],
     website: 'https://www.ginesys.in/products/e-commerce-oms',
   },
