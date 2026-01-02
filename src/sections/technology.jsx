@@ -1,15 +1,15 @@
 import React from 'react';
 import {
   FaReact, FaCode, FaPython, FaJava, FaNodeJs, FaHtml5, FaJsSquare,
-  FaFire, FaAws, FaCss3Alt, FaGitAlt, FaChartBar, FaChartLine,
-  FaFlask, FaBrain, FaRobot, FaDocker
+  FaFire, FaAws, FaEye, FaCss3Alt, FaGitAlt, FaChartBar, FaChartLine,
+  FaFlask, FaBrain, FaRobot, FaDatabase, FaDocker, FaChartPie
 } from 'react-icons/fa';
 
 import {
   SiMongodb, SiMysql, SiPytorch, SiScikitlearn, SiTensorflow,
   SiOpencv, SiDjango, SiSqlite, SiPostgresql, SiSnowflake,
   SiApacheairflow, SiMlflow, SiDatabricks, SiHuggingface,
-  SiPandas, SiNumpy, SiTableau, SiPowerbi
+  SiPandas, SiNumpy
 } from 'react-icons/si';
 
 import vueimg from '../images/vue.png';
@@ -20,7 +20,6 @@ const icon = (color) => `float ${color}`;
 const Technology = () => {
   const sections = [
 
-    /* ================= Languages ================= */
     {
       title: "Languages",
       items: [
@@ -35,7 +34,6 @@ const Technology = () => {
       ]
     },
 
-    /* ================= Frameworks ================ */
     {
       title: "Frameworks",
       items: [
@@ -47,7 +45,6 @@ const Technology = () => {
       ]
     },
 
-    /* ================= Databases ================= */
     {
       title: "Databases",
       items: [
@@ -55,12 +52,11 @@ const Technology = () => {
         { icon: <SiSnowflake className={icon("text-sky-400")} />, label: "Snowflake", level: "Advanced" },
         { icon: <SiMongodb className={icon("text-green-500")} />, label: "MongoDB", level: "Expert" },
         { icon: <SiMysql className={icon("text-blue-400")} />, label: "MySQL", level: "Expert" },
-        { icon: <SiSqlite className={icon("text-indigo-400")} />, label: "SQLite", level: "Expert" },
-        { icon: <FaFire className={icon("text-orange-500")} />, label: "Firebase", level: "Advanced" }
+        { icon: <SiSqlite className={icon("text-indigo-400")} />, label: "SQLite", level: "Advanced" },
+        { icon: <FaFire className={icon("text-orange-500")} />, label: "Firebase", level: "Expert" }
       ]
     },
 
-    /* ================= ML & Data Libraries ================= */
     {
       title: "ML & Data Libraries",
       items: [
@@ -76,42 +72,53 @@ const Technology = () => {
       ]
     },
 
-    /* ================= Visualization & BI ================= */
-    {
-      title: "Visualization & BI",
-      items: [
-        { icon: <SiTableau className={icon("text-blue-400")} />, label: "Tableau", level: "Expert" },
-        { icon: <SiPowerbi className={icon("text-yellow-500")} />, label: "Power BI", level: "Expert" },
-        { icon: <FaChartBar className={icon("text-blue-500")} />, label: "Plotly / Dash", level: "Expert" },
-        { icon: <FaChartLine className={icon("text-purple-400")} />, label: "Applied Statistics", level: "Expert" }
-      ]
-    },
-
-    /* ================= NLP, LLMs & Time Series ================= */
     {
       title: "NLP, LLMs & Time Series",
       items: [
-        { icon: <SiHuggingface className={icon("text-yellow-500")} />, label: "HuggingFace", level: "Intermediate" },
+        { icon: <SiHuggingface className={icon("text-yellow-500")} />, label: "HuggingFace", level: "Expert" },
         { icon: <FaRobot className={icon("text-green-400")} />, label: "GPT-4 / Gemini", level: "Expert" },
         { icon: <FaBrain className={icon("text-pink-400")} />, label: "spaCy / NLTK", level: "Expert" },
-        { icon: <FaChartLine className={icon("text-cyan-400")} />, label: "ARIMA / Prophet", level: "Expert" },
+        { icon: <FaChartLine className={icon("text-cyan-400")} />, label: "ARIMA / Prophet", level: "Advanced" },
         { icon: <FaBrain className={icon("text-purple-400")} />, label: "LSTM", level: "Advanced" },
         { icon: <FaBrain className={icon("text-indigo-400")} />, label: "SHAP / LIME", level: "Expert" }
       ]
     },
 
-    /* ================= MLOps & Cloud ================= */
     {
       title: "MLOps & Cloud",
       items: [
         { icon: <SiApacheairflow className={icon("text-sky-400")} />, label: "Airflow", level: "Advanced" },
-        { icon: <SiMlflow className={icon("text-blue-400")} />, label: "MLflow", level: "Expert" },
-        { icon: <FaAws className={icon("text-orange-400")} />, label: "AWS (S3, EC2, Lambda, Glue, SageMaker)", level: "Expert" },
+        { icon: <SiMlflow className={icon("text-blue-400")} />, label: "MLflow", level: "Advanced" },
+        { icon: <FaAws className={icon("text-orange-400")} />, label: "AWS (S3, EC2, Lambda, Glue, SageMaker)", level: "Advanced" },
         { icon: <SiDatabricks className={icon("text-red-400")} />, label: "Databricks", level: "Advanced" },
         { icon: <FaDocker className={icon("text-blue-500")} />, label: "Docker", level: "Advanced" },
         { icon: <FaGitAlt className={icon("text-red-500")} />, label: "Git", level: "Expert" }
       ]
+    },
+
+    // ✅ Updated Statistics & Modeling Section
+    {
+      title: "Statistics & Modeling",
+      items: [
+        { icon: <FaChartLine className={icon("text-green-400")} />, label: "Applied Statistics", level: "Expert" },
+        { icon: <FaChartBar className={icon("text-yellow-400")} />, label: "A/B Testing", level: "Advanced" },
+        { icon: <FaBrain className={icon("text-purple-500")} />, label: "Hyperparameter Tuning", level: "Expert" },
+        { icon: <FaChartBar className={icon("text-indigo-400")} />, label: "Dimensionality Reduction", level: "Expert" },
+        { icon: <FaBrain className={icon("text-pink-400")} />, label: "Supervised Models", level: "Expert" },
+        { icon: <FaBrain className={icon("text-blue-400")} />, label: "Unsupervised Models", level: "Expert" },
+        { icon: <FaChartLine className={icon("text-red-400")} />, label: "Monte Carlo Simulation", level: "Advanced" }
+      ]
+    },
+
+    // ✅ New Data & BI Tools Section
+    {
+      title: "Data & BI Tools",
+      items: [
+        { icon: <FaChartPie className={icon("text-yellow-400")} />, label: "Power BI", level: "Advanced" },
+        { icon: <FaChartPie className={icon("text-blue-400")} />, label: "Tableau", level: "Advanced" }
+      ]
     }
+
   ];
 
   return (
