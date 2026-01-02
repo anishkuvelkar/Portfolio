@@ -10,7 +10,7 @@ const experiences = [
     company: 'BalanX-Bio',
     location: 'East Lansing, MI',
     position: 'Data Scientist – Multimodal Behavioral Forecasting Platform | AI HealthTech Product & Smart Device B2C Startup',
-    date: 'Jan 2025 – Present',
+    date: 'Jan 2026 – Present',
     image: work3,
     bullets: [
       'Developed scalable ML models for microbial health digital twins using biosensor, microbiome, cortisol, and DNA data during R&D pilots, achieving 92% accuracy on 18K+ test datapoints for a pre-revenue smart coffee machine prototype',
