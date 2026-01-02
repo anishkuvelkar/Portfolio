@@ -11,15 +11,15 @@ const Projects = () => {
       description: "Scoutify provides music labels with the tools they need to identify promising artists based on solid data. By analyzing the YouTube data of over 5 million YouTube artists, calculating growth metrics, predicting future performance, and leveraging AI insights through the Gemini 1.5 Pro LLM, Scoutify delivers detailed PDF reports with various KPIs to help stakeholders make informed decisions about whether to sign an artist.",
       youtubeLink: "https://www.youtube.com/embed/WbVa6SmWx_U",
       githubLink: "https://github.com/anishkuvelkar/scoutify",
-      technologies: ["Gemini 1.5 Pro LLM", "React.js", "Flask", "YouTube API", "MongoDB", "pandas", "Linear Regression", "Matplotlib", "Seaborn", "Vite", "Tailwind CSS"],
+      technologies: ["Gemini 1.5 Pro LLM", "XGBoost", "pandas", "NumPy", "Matplotlib", "Seaborn", "React.js", "Flask", "YouTube API", "Vite", "Tailwind CSS"],
       isVideo: true,
     },
     {
       title: "CribMatch",
-      description: "CribMatch is a personality-driven co-living web app that matches users based on compatibility, achieving over 80% match accuracy using NLP techniques. The app uses 9 lifestyle attributes, TF-IDF for feature extraction, and cosine similarity to match users by personality and preferences.",
+      description: "CribMatch is a personality-driven co-living web app that matches users based on compatibility, achieving over 85% match accuracy using NLP techniques. The app uses 9 lifestyle attributes, TF-IDF for feature extraction, and cosine similarity to match users by personality and preferences.",
       image: cribmatch,
       githubLink: "https://github.com/anishkuvelkar/CribMatch",
-      technologies: ["React", "Tailwind CSS", "Django", "SQLite3", "TF-IDF", "Cosine Similarity"],
+      technologies: ["TF-IDF", "Truncated SVD", "Cosine Similarity", "React", "Tailwind CSS", "Django", "SQLite3"],
       isVideo: false,
     },
     {
